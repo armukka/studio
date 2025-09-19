@@ -2,7 +2,7 @@
 
 import { useInactivityLogout } from '@/hooks/use-inactivity-logout';
 import { useRouter } from 'next/navigation';
-import { useToast } from './hooks/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 const INACTIVITY_TIMEOUT = 10 * 60 * 1000; // 10 minutes
 
